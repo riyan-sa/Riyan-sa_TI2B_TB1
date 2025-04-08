@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Informasi Keluarga</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            h1 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                text-align: left    ;
+                font-size: 40px;
+                margin-right: 200px;
+            }
+            .text {
+                text-align: justify;
+                margin-right: 200px;
+            }
+
+            .container {
+                display: flex;
+                align-items: right;
+                justify-content: center;
+                gap: 30px;
+            }
+
+
+            img {
+                width: 300px;
+                border-radius: 30px;
+                transition: transform 0.3s ease-in-out;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            img:hover {
+                transform: scale(1.05);
+                transition: transform 0.3s ease;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Profil</a></li>
+                    <li><a href="teman.html">Teman</a></li>
+                    <li><a href="keluarga.html">Keluarga</a></li>
+                    <li><a href="hobi.html" class="active">Hobi</a></li>
+                </ul>
+            </nav>
+        </header>
+       <main>
+            <div>
+                <div class="text">
+                    <P style="font-family: serif; text-align: left; margin-right: 235px;">Tentang..</P>
+                    <h1>Hobi</h1>
+                    <p>Saya memiliki beberapa hobi yang sangat saya nikmati dan menjadi bagian penting dalam keseharian saya. Hobi pertama saya adalah bermain futsal atau sepak bola. Saya suka olahraga ini karena selain menyenangkan, juga menjaga kebugaran tubuh. Bermain bersama teman-teman di lapangan selalu memberikan energi positif bagi saya.
+                    Selain itu, saya juga menyukai dunia fotografi. Saya senang memotret momen-momen menarik, baik itu pemandangan, aktivitas sehari-hari, maupun potret manusia. Fotografi membuat saya lebih peka terhadap detail dan keindahan sekitar.
+                    kedua hobi ini tidak hanya menjadi aktivitas pengisi waktu luang, tetapi juga membantu saya berkembang secara pribadi dan memperluas wawasan.</p>
+                </div>
+            </div>
+       </main>
+
+       <div class="container">
+            <img src="img/futsal.jpg" alt="futsal">
+            <img src="img/foto.jpg" alt="foto">
+       </div>
+    </body>
+
+
+</html>
